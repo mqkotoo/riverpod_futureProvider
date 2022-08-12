@@ -42,4 +42,6 @@ class PostalCodeAddress with _$PostalCodeAddress {
 
   factory PostalCodeAddress.fromJson(Map<String, dynamic> json) =>
       _$PostalCodeAddressFromJson(json);
+
+  static const empty = PostalCode(code: "", data: []);
 }
